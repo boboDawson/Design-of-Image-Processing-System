@@ -42,22 +42,19 @@
 打开命令行终端，运行以下命令安装所需第三方库：
 ```bash
 pip install opencv-python numpy Pillow
-``` # ← 这里是第一个代码块的结尾 ```
-> **注意**：Tkinter、sqlite3、hashlib、logging 等库为 Python 标准库，无需额外安装。
-
-### 运行方式
-1. 克隆 / 下载：将本项目克隆或下载到本地电脑。
-2. 进入目录：打开终端，切换到项目根目录。
-3. 启动程序：
-```bash
+注意：Tkinter、sqlite3、hashlib、logging 等库为 Python 标准库，无需额外安装。
+运行方式
+克隆 / 下载：将本项目克隆或下载到本地电脑。
+进入目录：打开终端，切换到项目根目录。
+启动程序：
+bash
+运行
 # 方式一：启动主程序入口
 python main.py
 
 # 方式二：若主程序不可用，直接启动登录系统
 python login_system.py
-``` # ← 这里是第二个代码块的结尾 ```
-首次运行：程序会自动创建 `logs` 文件夹用于存放日志，并生成 `image_editor.db` 数据库文件。
-
+首次运行：程序会自动创建 logs 文件夹用于存放日志，并生成 image_editor.db 数据库文件。
 ### 模块说明
 | 文件名 | 功能说明 |
 |:--- |:--- |
