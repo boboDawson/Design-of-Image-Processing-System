@@ -1,0 +1,161 @@
+2025-03-09 14:20:33,377 [INFO] 程序启动
+2025-03-09 14:20:33,377 [INFO] 用户未登录，启动登录界面
+2025-03-09 14:20:47,485 [INFO] 用户 YH 尝试登录
+2025-03-09 14:20:47,575 [INFO] 图像编辑器启动 - 用户: YH(ID:1)
+2025-03-09 14:20:52,159 [INFO] 用户 YH 打开图片
+2025-03-09 14:21:23,745 [WARNING] 用户取消登录，程序退出
+2025-03-09 14:31:59,777 [INFO] 程序启动
+2025-03-09 14:31:59,777 [INFO] 用户未登录，启动登录界面
+2025-03-09 14:32:07,641 [INFO] 用户 YH 尝试登录
+2025-03-09 14:32:07,749 [INFO] 图像编辑器启动 - 用户: YH(ID:1)
+2025-03-09 14:32:10,930 [INFO] 用户 YH 打开图片
+2025-03-09 14:32:17,127 [ERROR] 记录处理操作失败: NOT NULL constraint failed: process_logs.image_id
+Traceback (most recent call last):
+  File "E:\Dlearning\Design of Image Processing System\image_editor.py", line 1106, in log_process
+    cursor.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: process_logs.image_id
+2025-03-09 14:32:17,127 [ERROR] 记录处理操作失败: NOT NULL constraint failed: process_logs.image_id
+Traceback (most recent call last):
+  File "E:\Dlearning\Design of Image Processing System\image_editor.py", line 1106, in log_process
+    cursor.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: process_logs.image_id
+2025-03-09 14:32:28,567 [ERROR] 记录处理操作失败: NOT NULL constraint failed: process_logs.image_id
+Traceback (most recent call last):
+  File "E:\Dlearning\Design of Image Processing System\image_editor.py", line 1106, in log_process
+    cursor.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: process_logs.image_id
+2025-03-09 14:32:28,567 [ERROR] 记录处理操作失败: NOT NULL constraint failed: process_logs.image_id
+Traceback (most recent call last):
+  File "E:\Dlearning\Design of Image Processing System\image_editor.py", line 1106, in log_process
+    cursor.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: process_logs.image_id
+2025-03-09 14:32:37,317 [WARNING] 用户取消登录，程序退出
+2025-03-09 14:34:12,532 [INFO] 程序启动
+2025-03-09 14:34:12,532 [INFO] 用户未登录，启动登录界面
+2025-03-09 14:34:19,433 [INFO] 用户 YH 尝试登录
+2025-03-09 14:34:19,489 [INFO] 图像编辑器启动 - 用户: YH(ID:1)
+2025-03-09 14:34:26,273 [INFO] 用户 YH 打开图片
+2025-03-09 14:34:29,812 [ERROR] 记录处理操作失败: NOT NULL constraint failed: images.filename
+Traceback (most recent call last):
+  File "E:\Dlearning\Design of Image Processing System\image_editor.py", line 1115, in log_process
+    cursor.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: images.filename
+2025-03-09 14:34:42,918 [ERROR] 记录处理操作失败: NOT NULL constraint failed: images.filename
+Traceback (most recent call last):
+  File "E:\Dlearning\Design of Image Processing System\image_editor.py", line 1115, in log_process
+    cursor.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: images.filename
+2025-03-09 14:34:42,918 [ERROR] 记录处理操作失败: NOT NULL constraint failed: images.filename
+Traceback (most recent call last):
+  File "E:\Dlearning\Design of Image Processing System\image_editor.py", line 1115, in log_process
+    cursor.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: images.filename
+2025-03-09 14:35:07,441 [INFO] 用户 YH 打开图片
+2025-03-09 14:35:12,633 [ERROR] 记录处理操作失败: NOT NULL constraint failed: images.filename
+Traceback (most recent call last):
+  File "E:\Dlearning\Design of Image Processing System\image_editor.py", line 1115, in log_process
+    cursor.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: images.filename
+2025-03-09 14:36:31,303 [INFO] 程序启动
+2025-03-09 14:36:31,303 [INFO] 用户 YH(ID:1) 登录成功
+2025-03-09 14:36:31,350 [INFO] 图像编辑器启动 - 用户: YH(ID:1)
+2025-03-09 14:36:40,455 [INFO] 用户 YH 打开图片
+2025-03-09 14:36:43,229 [ERROR] 记录处理操作失败: NOT NULL constraint failed: images.filepath
+Traceback (most recent call last):
+  File "E:\Dlearning\Design of Image Processing System\image_editor.py", line 1122, in log_process
+    cursor.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: images.filepath
+2025-03-09 14:38:22,920 [INFO] 程序启动
+2025-03-09 14:38:22,920 [INFO] 用户未登录，启动登录界面
+2025-03-09 14:38:30,209 [INFO] 用户 YH 尝试登录
+2025-03-09 14:38:30,280 [INFO] 图像编辑器启动 - 用户: YH(ID:1)
+2025-03-09 14:38:31,961 [INFO] 用户 YH 打开图片
+2025-03-09 14:38:36,049 [ERROR] 记录处理操作失败: NOT NULL constraint failed: images.format
+Traceback (most recent call last):
+  File "E:\Dlearning\Design of Image Processing System\image_editor.py", line 1125, in log_process
+    cursor.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: images.format
+2025-03-09 14:39:20,376 [WARNING] 用户取消登录，程序退出
+2025-03-09 14:40:26,182 [INFO] 程序启动
+2025-03-09 14:40:26,182 [INFO] 用户未登录，启动登录界面
+2025-03-09 14:40:32,378 [INFO] 用户 YH 尝试登录
+2025-03-09 14:40:32,443 [INFO] 图像编辑器启动 - 用户: YH(ID:1)
+2025-03-09 14:40:33,417 [INFO] 用户 YH 打开图片
+2025-03-09 14:40:35,827 [ERROR] 记录处理操作失败: NOT NULL constraint failed: images.size
+Traceback (most recent call last):
+  File "E:\Dlearning\Design of Image Processing System\image_editor.py", line 1128, in log_process
+    cursor.execute("""
+sqlite3.IntegrityError: NOT NULL constraint failed: images.size
+2025-03-09 14:40:56,381 [WARNING] 用户取消登录，程序退出
+2025-03-09 14:42:02,325 [INFO] 程序启动
+2025-03-09 14:42:02,325 [INFO] 用户未登录，启动登录界面
+2025-03-09 14:42:08,317 [INFO] 用户 YH 尝试登录
+2025-03-09 14:42:08,397 [INFO] 图像编辑器启动 - 用户: YH(ID:1)
+2025-03-09 14:42:09,210 [INFO] 用户 YH 打开图片
+2025-03-09 14:42:11,973 [INFO] 用户 YH 进行打开图片处理: 文件路径: E:/Dlearning/1.jpg
+2025-03-09 14:42:18,152 [INFO] 用户 YH 进行应用更改处理: 
+2025-03-09 14:42:18,152 [INFO] 用户 YH 进行反相效果处理: 
+2025-03-09 14:42:32,865 [INFO] 用户 YH 进行应用更改处理: 
+2025-03-09 14:42:32,868 [INFO] 用户 YH 进行复古效果处理: 
+2025-03-09 14:42:43,668 [INFO] 用户 YH 进行应用更改处理: 
+2025-03-09 14:42:43,671 [INFO] 用户 YH 进行模糊处理处理: 
+2025-03-09 14:43:04,835 [INFO] 用户 YH 进行应用更改处理: 
+2025-03-09 14:43:04,838 [INFO] 用户 YH 进行素描效果处理: 
+2025-03-09 14:43:09,141 [WARNING] 用户取消登录，程序退出
+2025-03-09 14:55:16,022 [INFO] 程序启动
+2025-03-09 14:55:16,022 [INFO] 用户未登录，启动登录界面
+2025-03-09 15:30:39,341 [INFO] 用户 YH 尝试登录
+2025-03-09 15:30:39,470 [INFO] 图像编辑器启动 - 用户: YH(ID:1)
+2025-03-09 15:31:05,590 [INFO] 用户 YH 打开图片
+2025-03-09 15:31:09,014 [INFO] 用户 YH 进行打开图片处理: 文件路径: E:/Dlearning/1.jpg
+2025-03-09 15:31:13,830 [INFO] 用户 YH 打开图片
+2025-03-09 15:31:15,961 [INFO] 用户 YH 进行打开图片处理: 文件路径: E:/Dlearning/test.jpg
+2025-03-09 15:31:23,027 [INFO] 用户 YH 保存图片
+2025-03-09 15:44:25,573 [INFO] 用户 YH 进行应用更改处理: 
+2025-03-09 15:44:25,576 [INFO] 用户 YH 进行模糊处理处理: 
+2025-03-09 15:44:25,743 [INFO] 用户 YH 进行应用更改处理: 
+2025-03-09 15:44:25,746 [INFO] 用户 YH 进行模糊处理处理: 
+2025-03-09 15:44:25,903 [INFO] 用户 YH 进行应用更改处理: 
+2025-03-09 15:44:25,907 [INFO] 用户 YH 进行模糊处理处理: 
+2025-03-09 15:44:26,063 [INFO] 用户 YH 进行应用更改处理: 
+2025-03-09 15:44:26,067 [INFO] 用户 YH 进行模糊处理处理: 
+2025-03-09 15:44:26,209 [INFO] 用户 YH 进行应用更改处理: 
+2025-03-09 15:44:26,212 [INFO] 用户 YH 进行模糊处理处理: 
+2025-03-09 15:44:26,362 [INFO] 用户 YH 进行应用更改处理: 
+2025-03-09 15:44:26,365 [INFO] 用户 YH 进行模糊处理处理: 
+2025-03-09 15:44:26,507 [INFO] 用户 YH 进行应用更改处理: 
+2025-03-09 15:44:26,511 [INFO] 用户 YH 进行模糊处理处理: 
+2025-03-09 15:44:26,646 [INFO] 用户 YH 进行应用更改处理: 
+2025-03-09 15:44:26,650 [INFO] 用户 YH 进行模糊处理处理: 
+2025-03-09 15:44:26,792 [INFO] 用户 YH 进行应用更改处理: 
+2025-03-09 15:44:26,794 [INFO] 用户 YH 进行模糊处理处理: 
+2025-03-09 15:44:27,607 [INFO] 用户 YH 进行应用更改处理: 
+2025-03-09 15:44:27,610 [INFO] 用户 YH 进行模糊处理处理: 
+2025-03-09 15:44:28,106 [INFO] 用户 YH 进行应用更改处理: 
+2025-03-09 15:44:28,109 [INFO] 用户 YH 进行模糊处理处理: 
+2025-03-09 15:44:28,392 [INFO] 用户 YH 进行应用更改处理: 
+2025-03-09 15:44:28,395 [INFO] 用户 YH 进行模糊处理处理: 
+2025-03-09 15:44:28,680 [INFO] 用户 YH 进行应用更改处理: 
+2025-03-09 15:44:28,683 [INFO] 用户 YH 进行模糊处理处理: 
+2025-03-09 15:44:28,835 [INFO] 用户 YH 进行应用更改处理: 
+2025-03-09 15:44:28,838 [INFO] 用户 YH 进行模糊处理处理: 
+2025-03-09 15:44:29,002 [INFO] 用户 YH 进行应用更改处理: 
+2025-03-09 15:44:29,005 [INFO] 用户 YH 进行模糊处理处理: 
+2025-03-09 15:44:29,291 [INFO] 用户 YH 进行应用更改处理: 
+2025-03-09 15:44:29,294 [INFO] 用户 YH 进行模糊处理处理: 
+2025-03-09 15:44:29,492 [INFO] 用户 YH 进行应用更改处理: 
+2025-03-09 15:44:29,496 [INFO] 用户 YH 进行模糊处理处理: 
+2025-03-09 15:44:29,652 [INFO] 用户 YH 进行应用更改处理: 
+2025-03-09 15:44:29,656 [INFO] 用户 YH 进行模糊处理处理: 
+2025-03-09 15:44:29,812 [INFO] 用户 YH 进行应用更改处理: 
+2025-03-09 15:44:29,815 [INFO] 用户 YH 进行模糊处理处理: 
+2025-03-09 15:44:30,446 [INFO] 用户 YH 进行应用更改处理: 
+2025-03-09 15:44:30,449 [INFO] 用户 YH 进行模糊处理处理: 
+2025-03-09 15:44:30,648 [INFO] 用户 YH 进行应用更改处理: 
+2025-03-09 15:44:30,651 [INFO] 用户 YH 进行模糊处理处理: 
+2025-03-09 15:44:30,818 [INFO] 用户 YH 进行应用更改处理: 
+2025-03-09 15:44:30,821 [INFO] 用户 YH 进行模糊处理处理: 
+2025-03-09 15:44:31,696 [INFO] 用户 YH 进行应用更改处理: 
+2025-03-09 15:44:31,700 [INFO] 用户 YH 进行模糊处理处理: 
+2025-03-09 15:44:31,872 [INFO] 用户 YH 进行应用更改处理: 
+2025-03-09 15:44:31,875 [INFO] 用户 YH 进行模糊处理处理: 
