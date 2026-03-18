@@ -42,6 +42,7 @@
 打开命令行终端，运行以下命令安装所需第三方库：
 ```bash
 pip install opencv-python numpy Pillow
+...
 注意：Tkinter、sqlite3、hashlib、logging 等库为 Python 标准库，无需额外安装。
 运行方式
 克隆 / 下载：将本项目克隆或下载到本地电脑。
